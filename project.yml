@@ -13,6 +13,9 @@ packages:
   swift-composable-architecture:
     url: https://github.com/pointfreeco/swift-composable-architecture
     from: 0.45.0
+  Nuke:
+    url: https://github.com/kean/Nuke
+    from: 11.3.0
 
 targets:
   GiphyTCA:
@@ -57,3 +60,5 @@ targets:
       - framework: Frameworks/URLRequestDataSourceLayer.xcframework
       - package: swift-composable-architecture
         product: ComposableArchitecture
+      - package: Nuke
+        product: NukeUI
