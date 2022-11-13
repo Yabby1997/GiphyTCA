@@ -1,0 +1,54 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.123.8 clang-1400.0.29.50)
+// swift-module-flags: -target x86_64-apple-ios15.5-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name URLRequestDataLayer
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+@_exported import URLRequestDataLayer
+import _Concurrency
+import _StringProcessing
+public protocol URLRequestBuilderNetworkServiceProtocol {
+  #if compiler(>=5.3) && $AsyncAwait
+  func request<DTO>(with builder: URLRequestDataLayer.URLRequestBuilder) async throws -> (DTO, Foundation.URLResponse) where DTO : Swift.Decodable
+  #endif
+}
+public enum HTTPMethods : Swift.String {
+  case get
+  case post
+  case put
+  case patch
+  case delete
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum URLRequestBuilderErrors : Foundation.LocalizedError {
+  case failedToBuildRequest
+  public var errorDescription: Swift.String? {
+    get
+  }
+  public static func == (a: URLRequestDataLayer.URLRequestBuilderErrors, b: URLRequestDataLayer.URLRequestBuilderErrors) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol URLRequestBuilder {
+  var domain: Swift.String { get }
+  var path: Swift.String? { get }
+  var method: URLRequestDataLayer.HTTPMethods { get }
+  var headers: [Swift.String : Swift.String]? { get }
+  var parameters: [Swift.String : Swift.String?]? { get }
+  var body: [Swift.String : Any]? { get }
+  func build() throws -> Foundation.URLRequest
+}
+extension URLRequestDataLayer.URLRequestBuilder {
+  public func build() throws -> Foundation.URLRequest
+}
+extension URLRequestDataLayer.HTTPMethods : Swift.Equatable {}
+extension URLRequestDataLayer.HTTPMethods : Swift.Hashable {}
+extension URLRequestDataLayer.HTTPMethods : Swift.RawRepresentable {}
+extension URLRequestDataLayer.URLRequestBuilderErrors : Swift.Equatable {}
+extension URLRequestDataLayer.URLRequestBuilderErrors : Swift.Hashable {}

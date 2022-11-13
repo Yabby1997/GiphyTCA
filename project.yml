@@ -1,0 +1,59 @@
+name: GiphyTCA
+
+options:
+  xcodeVersion: 11.0
+  deploymentTarget:
+    iOS: 14.0
+
+settings:
+  MARKETING_VERSION: 1.0.0
+  CURRENT_PROJECT_VERSION: 1
+
+packages:
+  swift-composable-architecture:
+    url: https://github.com/pointfreeco/swift-composable-architecture
+    from: 0.45.0
+
+targets:
+  GiphyTCA:
+    type: application
+    platform: iOS
+    sources:
+      - path: GiphyTCA
+        excludes: [Info.plist]
+    info:
+      path: GiphyTCA/Info.plist
+      properties:
+        CFBundleName: $(PRODUCT_NAME)
+        CFBundleIdentifier: $(PRODUCT_BUNDLE_IDENTIFIER)
+        CFBundleInfoDictionaryVersion: "6.0"
+        UISupportedInterfaceOrientations~iphone: [UIInterfaceOrientationPortrait, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        UISupportedInterfaceOrientations~ipad: [UIInterfaceOrientationPortrait, UIInterfaceOrientationPortraitUpsideDown, UIInterfaceOrientationLandscapeLeft, UIInterfaceOrientationLandscapeRight]
+        CFBundleVersion: $(CURRENT_PROJECT_VERSION)
+        UIApplicationSupportsIndirectInputEvents: YES
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: YES
+        LSRequiresIPhoneOS: YES
+        CFBundleExecutable: $(EXECUTABLE_NAME)
+        CFBundlePackageType: $(PRODUCT_BUNDLE_PACKIAGE_TYPE)
+        UILaunchScreen:
+          UILaunchScreen:
+        CFBundleDevelopmentRegion: $(DEVELOPMENT_LANGUAGE)
+        CFBundleShortVersionString: $(MARKETING_VERSION)
+    settings:
+      base:
+        DEVELOPMENT_TEAM: 5HZQ3M82FA
+        INFOPLIST_FILE: GiphyTCA/Info.plist
+        INFOPLIST_PREPROCESS: YES
+      configs:
+        Debug:
+          PRODUCT_BUNDLE_IDENTIFIER: com.seunghun.GiphyTCA
+    scheme:
+      targets: all
+    dependencies:
+      - framework: Frameworks/GiphyDataLayer.xcframework
+      - framework: Frameworks/GiphyDomainLayer.xcframework
+      - framework: Frameworks/URLRequestDataLayer.xcframework
+      - framework: Frameworks/URLRequestDataSourceLayer.xcframework
+      - package: swift-composable-architecture
+        product: ComposableArchitecture

@@ -1,0 +1,109 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "URLRequestDataLayer",
+        "printedName": "URLRequestDataLayer",
+        "declKind": "Import",
+        "moduleName": "URLRequestDataSourceLayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLRequestBuilderNetworkService",
+        "printedName": "URLRequestBuilderNetworkService",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequestBuilderNetworkService",
+                "printedName": "URLRequestDataSourceLayer.URLRequestBuilderNetworkService",
+                "usr": "s:25URLRequestDataSourceLayer0A21BuilderNetworkServiceC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25URLRequestDataSourceLayer0A21BuilderNetworkServiceCACycfc",
+            "mangledName": "$s25URLRequestDataSourceLayer0A21BuilderNetworkServiceCACycfc",
+            "moduleName": "URLRequestDataSourceLayer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(τ_0_0, Foundation.URLResponse)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLResponse",
+                    "printedName": "Foundation.URLResponse",
+                    "usr": "c:objc(cs)NSURLResponse"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequestBuilder",
+                "printedName": "URLRequestDataLayer.URLRequestBuilder",
+                "usr": "s:19URLRequestDataLayer0A7BuilderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:25URLRequestDataSourceLayer0A21BuilderNetworkServiceC7request4withx_So13NSURLResponseCt0abD00aE0_p_tYaKSeRzlF",
+            "mangledName": "$s25URLRequestDataSourceLayer0A21BuilderNetworkServiceC7request4withx_So13NSURLResponseCt0abD00aE0_p_tYaKSeRzlF",
+            "moduleName": "URLRequestDataSourceLayer",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<DTO where DTO : Swift.Decodable>",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:25URLRequestDataSourceLayer0A21BuilderNetworkServiceC",
+        "mangledName": "$s25URLRequestDataSourceLayer0A21BuilderNetworkServiceC",
+        "moduleName": "URLRequestDataSourceLayer",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "URLRequestBuilderNetworkServiceProtocol",
+            "printedName": "URLRequestBuilderNetworkServiceProtocol",
+            "usr": "s:19URLRequestDataLayer0A29BuilderNetworkServiceProtocolP",
+            "mangledName": "$s19URLRequestDataLayer0A29BuilderNetworkServiceProtocolP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

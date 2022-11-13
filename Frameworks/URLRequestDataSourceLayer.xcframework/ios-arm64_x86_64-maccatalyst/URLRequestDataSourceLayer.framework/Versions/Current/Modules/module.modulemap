@@ -1,0 +1,11 @@
+framework module URLRequestDataSourceLayer {
+  umbrella header "URLRequestDataSourceLayer.h"
+
+  export *
+  module * { export * }
+}
+
+module URLRequestDataSourceLayer.Swift {
+  header "URLRequestDataSourceLayer-Swift.h"
+  requires objc
+}

@@ -1,0 +1,241 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GiphyDataLayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "URLRequestDataLayer",
+        "printedName": "URLRequestDataLayer",
+        "declKind": "Import",
+        "moduleName": "GiphyDataLayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "GiphyDomainLayer",
+        "printedName": "GiphyDomainLayer",
+        "declKind": "Import",
+        "moduleName": "GiphyDataLayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "URLRequestDataLayer",
+        "printedName": "URLRequestDataLayer",
+        "declKind": "Import",
+        "moduleName": "GiphyDataLayer"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GiphyRepository",
+        "printedName": "GiphyRepository",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiKey:networkService:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GiphyRepository",
+                "printedName": "GiphyDataLayer.GiphyRepository",
+                "usr": "s:14GiphyDataLayer0A10RepositoryC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequestBuilderNetworkServiceProtocol",
+                "printedName": "URLRequestDataLayer.URLRequestBuilderNetworkServiceProtocol",
+                "usr": "s:19URLRequestDataLayer0A29BuilderNetworkServiceProtocolP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14GiphyDataLayer0A10RepositoryC6apiKey14networkServiceACSS_010URLRequestbC00i14BuilderNetworkH8Protocol_ptcfc",
+            "mangledName": "$s14GiphyDataLayer0A10RepositoryC6apiKey14networkServiceACSS_010URLRequestbC00i14BuilderNetworkH8Protocol_ptcfc",
+            "moduleName": "GiphyDataLayer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "search",
+            "printedName": "search(query:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[GiphyDomainLayer.GiphyEntity]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GiphyEntity",
+                    "printedName": "GiphyDomainLayer.GiphyEntity",
+                    "usr": "s:16GiphyDomainLayer0A6EntityV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14GiphyDataLayer0A10RepositoryC6search5querySay0a6DomainC00A6EntityVGSS_tYaKF",
+            "mangledName": "$s14GiphyDataLayer0A10RepositoryC6search5querySay0a6DomainC00A6EntityVGSS_tYaKF",
+            "moduleName": "GiphyDataLayer",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14GiphyDataLayer0A10RepositoryC",
+        "mangledName": "$s14GiphyDataLayer0A10RepositoryC",
+        "moduleName": "GiphyDataLayer",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "GiphyRepositoryProtocol",
+            "printedName": "GiphyRepositoryProtocol",
+            "usr": "s:16GiphyDomainLayer0A18RepositoryProtocolP",
+            "mangledName": "$s16GiphyDomainLayer0A18RepositoryProtocolP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/GiphyDataLayer\/GiphyDataLayer\/GiphyDataTransferObject.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 10,
+      "value": "\"original\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/GiphyDataLayer\/GiphyDataLayer\/GiphyDataTransferObject.swift",
+      "kind": "StringLiteral",
+      "offset": 570,
+      "length": 11,
+      "value": "\"downsized\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/GiphyDataLayer\/GiphyDataLayer\/GiphyDataTransferObject.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 10,
+      "value": "\"original\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/GiphyDataLayer\/GiphyDataLayer\/GiphyDataTransferObject.swift",
+      "kind": "StringLiteral",
+      "offset": 570,
+      "length": 11,
+      "value": "\"downsized\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/GiphyDataLayer\/GiphyDataLayer\/GiphyDataTransferObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1119,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/GiphyDataLayer\/GiphyDataLayer\/GiphyDataTransferObject.swift",
+      "kind": "StringLiteral",
+      "offset": 1119,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/GiphyDataLayer\/GiphyDataLayer\/GiphyRequestBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 255,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/GiphyDataLayer\/GiphyDataLayer\/GiphyRequestBuilder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 285,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/GiphyDataLayer\/GiphyDataLayer\/GiphyRequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 9,
+      "value": "\"api_key\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/GiphyDataLayer\/GiphyDataLayer\/GiphyRequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 3,
+      "value": "\"q\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/GiphyDataLayer\/GiphyDataLayer\/GiphyRequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 483,
+      "length": 7,
+      "value": "\"limit\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/GiphyDataLayer\/GiphyDataLayer\/GiphyRequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 8,
+      "value": "\"offset\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/GiphyDataLayer\/GiphyDataLayer\/GiphyRequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 560,
+      "length": 8,
+      "value": "\"rating\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/GiphyDataLayer\/GiphyDataLayer\/GiphyRequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 599,
+      "length": 10,
+      "value": "\"language\""
+    }
+  ]
+}

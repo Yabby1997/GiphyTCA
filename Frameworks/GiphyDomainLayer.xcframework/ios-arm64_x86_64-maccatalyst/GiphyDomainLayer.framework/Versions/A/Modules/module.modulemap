@@ -1,0 +1,11 @@
+framework module GiphyDomainLayer {
+  umbrella header "GiphyDomainLayer.h"
+
+  export *
+  module * { export * }
+}
+
+module GiphyDomainLayer.Swift {
+  header "GiphyDomainLayer-Swift.h"
+  requires objc
+}

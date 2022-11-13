@@ -1,0 +1,1183 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "URLRequestDataLayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLRequestBuilderNetworkServiceProtocol",
+        "printedName": "URLRequestBuilderNetworkServiceProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(τ_1_0, Foundation.URLResponse)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_1_0"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLResponse",
+                    "printedName": "Foundation.URLResponse",
+                    "usr": "c:objc(cs)NSURLResponse"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequestBuilder",
+                "printedName": "URLRequestDataLayer.URLRequestBuilder",
+                "usr": "s:19URLRequestDataLayer0A7BuilderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19URLRequestDataLayer0A29BuilderNetworkServiceProtocolP7request4withqd___So13NSURLResponseCtAA0aD0_p_tYaKSeRd__lF",
+            "mangledName": "$s19URLRequestDataLayer0A29BuilderNetworkServiceProtocolP7request4withqd___So13NSURLResponseCtAA0aD0_p_tYaKSeRd__lF",
+            "moduleName": "URLRequestDataLayer",
+            "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : URLRequestDataLayer.URLRequestBuilderNetworkServiceProtocol, τ_1_0 : Swift.Decodable>",
+            "sugared_genericSig": "<Self, DTO where Self : URLRequestDataLayer.URLRequestBuilderNetworkServiceProtocol, DTO : Swift.Decodable>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:19URLRequestDataLayer0A29BuilderNetworkServiceProtocolP",
+        "mangledName": "$s19URLRequestDataLayer0A29BuilderNetworkServiceProtocolP",
+        "moduleName": "URLRequestDataLayer",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "URLRequestDataLayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPMethods",
+        "printedName": "HTTPMethods",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "get",
+            "printedName": "get",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(URLRequestDataLayer.HTTPMethods.Type) -> URLRequestDataLayer.HTTPMethods",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethods",
+                    "printedName": "URLRequestDataLayer.HTTPMethods",
+                    "usr": "s:19URLRequestDataLayer11HTTPMethodsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "URLRequestDataLayer.HTTPMethods.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethods",
+                        "printedName": "URLRequestDataLayer.HTTPMethods",
+                        "usr": "s:19URLRequestDataLayer11HTTPMethodsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19URLRequestDataLayer11HTTPMethodsO3getyA2CmF",
+            "mangledName": "$s19URLRequestDataLayer11HTTPMethodsO3getyA2CmF",
+            "moduleName": "URLRequestDataLayer"
+          },
+          {
+            "kind": "Var",
+            "name": "post",
+            "printedName": "post",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(URLRequestDataLayer.HTTPMethods.Type) -> URLRequestDataLayer.HTTPMethods",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethods",
+                    "printedName": "URLRequestDataLayer.HTTPMethods",
+                    "usr": "s:19URLRequestDataLayer11HTTPMethodsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "URLRequestDataLayer.HTTPMethods.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethods",
+                        "printedName": "URLRequestDataLayer.HTTPMethods",
+                        "usr": "s:19URLRequestDataLayer11HTTPMethodsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19URLRequestDataLayer11HTTPMethodsO4postyA2CmF",
+            "mangledName": "$s19URLRequestDataLayer11HTTPMethodsO4postyA2CmF",
+            "moduleName": "URLRequestDataLayer"
+          },
+          {
+            "kind": "Var",
+            "name": "put",
+            "printedName": "put",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(URLRequestDataLayer.HTTPMethods.Type) -> URLRequestDataLayer.HTTPMethods",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethods",
+                    "printedName": "URLRequestDataLayer.HTTPMethods",
+                    "usr": "s:19URLRequestDataLayer11HTTPMethodsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "URLRequestDataLayer.HTTPMethods.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethods",
+                        "printedName": "URLRequestDataLayer.HTTPMethods",
+                        "usr": "s:19URLRequestDataLayer11HTTPMethodsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19URLRequestDataLayer11HTTPMethodsO3putyA2CmF",
+            "mangledName": "$s19URLRequestDataLayer11HTTPMethodsO3putyA2CmF",
+            "moduleName": "URLRequestDataLayer"
+          },
+          {
+            "kind": "Var",
+            "name": "patch",
+            "printedName": "patch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(URLRequestDataLayer.HTTPMethods.Type) -> URLRequestDataLayer.HTTPMethods",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethods",
+                    "printedName": "URLRequestDataLayer.HTTPMethods",
+                    "usr": "s:19URLRequestDataLayer11HTTPMethodsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "URLRequestDataLayer.HTTPMethods.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethods",
+                        "printedName": "URLRequestDataLayer.HTTPMethods",
+                        "usr": "s:19URLRequestDataLayer11HTTPMethodsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19URLRequestDataLayer11HTTPMethodsO5patchyA2CmF",
+            "mangledName": "$s19URLRequestDataLayer11HTTPMethodsO5patchyA2CmF",
+            "moduleName": "URLRequestDataLayer"
+          },
+          {
+            "kind": "Var",
+            "name": "delete",
+            "printedName": "delete",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(URLRequestDataLayer.HTTPMethods.Type) -> URLRequestDataLayer.HTTPMethods",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethods",
+                    "printedName": "URLRequestDataLayer.HTTPMethods",
+                    "usr": "s:19URLRequestDataLayer11HTTPMethodsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "URLRequestDataLayer.HTTPMethods.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethods",
+                        "printedName": "URLRequestDataLayer.HTTPMethods",
+                        "usr": "s:19URLRequestDataLayer11HTTPMethodsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19URLRequestDataLayer11HTTPMethodsO6deleteyA2CmF",
+            "mangledName": "$s19URLRequestDataLayer11HTTPMethodsO6deleteyA2CmF",
+            "moduleName": "URLRequestDataLayer"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "URLRequestDataLayer.HTTPMethods?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethods",
+                    "printedName": "URLRequestDataLayer.HTTPMethods",
+                    "usr": "s:19URLRequestDataLayer11HTTPMethodsO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19URLRequestDataLayer11HTTPMethodsO8rawValueACSgSS_tcfc",
+            "mangledName": "$s19URLRequestDataLayer11HTTPMethodsO8rawValueACSgSS_tcfc",
+            "moduleName": "URLRequestDataLayer",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19URLRequestDataLayer11HTTPMethodsO8rawValueSSvp",
+            "mangledName": "$s19URLRequestDataLayer11HTTPMethodsO8rawValueSSvp",
+            "moduleName": "URLRequestDataLayer",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19URLRequestDataLayer11HTTPMethodsO8rawValueSSvg",
+                "mangledName": "$s19URLRequestDataLayer11HTTPMethodsO8rawValueSSvg",
+                "moduleName": "URLRequestDataLayer",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19URLRequestDataLayer11HTTPMethodsO",
+        "mangledName": "$s19URLRequestDataLayer11HTTPMethodsO",
+        "moduleName": "URLRequestDataLayer",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLRequestBuilderErrors",
+        "printedName": "URLRequestBuilderErrors",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "failedToBuildRequest",
+            "printedName": "failedToBuildRequest",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(URLRequestDataLayer.URLRequestBuilderErrors.Type) -> URLRequestDataLayer.URLRequestBuilderErrors",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLRequestBuilderErrors",
+                    "printedName": "URLRequestDataLayer.URLRequestBuilderErrors",
+                    "usr": "s:19URLRequestDataLayer0A13BuilderErrorsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "URLRequestDataLayer.URLRequestBuilderErrors.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URLRequestBuilderErrors",
+                        "printedName": "URLRequestDataLayer.URLRequestBuilderErrors",
+                        "usr": "s:19URLRequestDataLayer0A13BuilderErrorsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19URLRequestDataLayer0A13BuilderErrorsO20failedToBuildRequestyA2CmF",
+            "mangledName": "$s19URLRequestDataLayer0A13BuilderErrorsO20failedToBuildRequestyA2CmF",
+            "moduleName": "URLRequestDataLayer"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19URLRequestDataLayer0A13BuilderErrorsO16errorDescriptionSSSgvp",
+            "mangledName": "$s19URLRequestDataLayer0A13BuilderErrorsO16errorDescriptionSSSgvp",
+            "moduleName": "URLRequestDataLayer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19URLRequestDataLayer0A13BuilderErrorsO16errorDescriptionSSSgvg",
+                "mangledName": "$s19URLRequestDataLayer0A13BuilderErrorsO16errorDescriptionSSSgvg",
+                "moduleName": "URLRequestDataLayer",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequestBuilderErrors",
+                "printedName": "URLRequestDataLayer.URLRequestBuilderErrors",
+                "usr": "s:19URLRequestDataLayer0A13BuilderErrorsO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequestBuilderErrors",
+                "printedName": "URLRequestDataLayer.URLRequestBuilderErrors",
+                "usr": "s:19URLRequestDataLayer0A13BuilderErrorsO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19URLRequestDataLayer0A13BuilderErrorsO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19URLRequestDataLayer0A13BuilderErrorsO2eeoiySbAC_ACtFZ",
+            "moduleName": "URLRequestDataLayer",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19URLRequestDataLayer0A13BuilderErrorsO9hashValueSivp",
+            "mangledName": "$s19URLRequestDataLayer0A13BuilderErrorsO9hashValueSivp",
+            "moduleName": "URLRequestDataLayer",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19URLRequestDataLayer0A13BuilderErrorsO9hashValueSivg",
+                "mangledName": "$s19URLRequestDataLayer0A13BuilderErrorsO9hashValueSivg",
+                "moduleName": "URLRequestDataLayer",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19URLRequestDataLayer0A13BuilderErrorsO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s19URLRequestDataLayer0A13BuilderErrorsO4hash4intoys6HasherVz_tF",
+            "moduleName": "URLRequestDataLayer",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19URLRequestDataLayer0A13BuilderErrorsO",
+        "mangledName": "$s19URLRequestDataLayer0A13BuilderErrorsO",
+        "moduleName": "URLRequestDataLayer",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLRequestBuilder",
+        "printedName": "URLRequestBuilder",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "domain",
+            "printedName": "domain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19URLRequestDataLayer0A7BuilderP6domainSSvp",
+            "mangledName": "$s19URLRequestDataLayer0A7BuilderP6domainSSvp",
+            "moduleName": "URLRequestDataLayer",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19URLRequestDataLayer0A7BuilderP6domainSSvg",
+                "mangledName": "$s19URLRequestDataLayer0A7BuilderP6domainSSvg",
+                "moduleName": "URLRequestDataLayer",
+                "genericSig": "<τ_0_0 where τ_0_0 : URLRequestDataLayer.URLRequestBuilder>",
+                "sugared_genericSig": "<Self where Self : URLRequestDataLayer.URLRequestBuilder>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "path",
+            "printedName": "path",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19URLRequestDataLayer0A7BuilderP4pathSSSgvp",
+            "mangledName": "$s19URLRequestDataLayer0A7BuilderP4pathSSSgvp",
+            "moduleName": "URLRequestDataLayer",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19URLRequestDataLayer0A7BuilderP4pathSSSgvg",
+                "mangledName": "$s19URLRequestDataLayer0A7BuilderP4pathSSSgvg",
+                "moduleName": "URLRequestDataLayer",
+                "genericSig": "<τ_0_0 where τ_0_0 : URLRequestDataLayer.URLRequestBuilder>",
+                "sugared_genericSig": "<Self where Self : URLRequestDataLayer.URLRequestBuilder>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "method",
+            "printedName": "method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethods",
+                "printedName": "URLRequestDataLayer.HTTPMethods",
+                "usr": "s:19URLRequestDataLayer11HTTPMethodsO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19URLRequestDataLayer0A7BuilderP6methodAA11HTTPMethodsOvp",
+            "mangledName": "$s19URLRequestDataLayer0A7BuilderP6methodAA11HTTPMethodsOvp",
+            "moduleName": "URLRequestDataLayer",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethods",
+                    "printedName": "URLRequestDataLayer.HTTPMethods",
+                    "usr": "s:19URLRequestDataLayer11HTTPMethodsO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19URLRequestDataLayer0A7BuilderP6methodAA11HTTPMethodsOvg",
+                "mangledName": "$s19URLRequestDataLayer0A7BuilderP6methodAA11HTTPMethodsOvg",
+                "moduleName": "URLRequestDataLayer",
+                "genericSig": "<τ_0_0 where τ_0_0 : URLRequestDataLayer.URLRequestBuilder>",
+                "sugared_genericSig": "<Self where Self : URLRequestDataLayer.URLRequestBuilder>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headers",
+            "printedName": "headers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19URLRequestDataLayer0A7BuilderP7headersSDyS2SGSgvp",
+            "mangledName": "$s19URLRequestDataLayer0A7BuilderP7headersSDyS2SGSgvp",
+            "moduleName": "URLRequestDataLayer",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19URLRequestDataLayer0A7BuilderP7headersSDyS2SGSgvg",
+                "mangledName": "$s19URLRequestDataLayer0A7BuilderP7headersSDyS2SGSgvg",
+                "moduleName": "URLRequestDataLayer",
+                "genericSig": "<τ_0_0 where τ_0_0 : URLRequestDataLayer.URLRequestBuilder>",
+                "sugared_genericSig": "<Self where Self : URLRequestDataLayer.URLRequestBuilder>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parameters",
+            "printedName": "parameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String?]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String?]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19URLRequestDataLayer0A7BuilderP10parametersSDyS2SSgGSgvp",
+            "mangledName": "$s19URLRequestDataLayer0A7BuilderP10parametersSDyS2SSgGSgvp",
+            "moduleName": "URLRequestDataLayer",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String?]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String?]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19URLRequestDataLayer0A7BuilderP10parametersSDyS2SSgGSgvg",
+                "mangledName": "$s19URLRequestDataLayer0A7BuilderP10parametersSDyS2SSgGSgvg",
+                "moduleName": "URLRequestDataLayer",
+                "genericSig": "<τ_0_0 where τ_0_0 : URLRequestDataLayer.URLRequestBuilder>",
+                "sugared_genericSig": "<Self where Self : URLRequestDataLayer.URLRequestBuilder>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19URLRequestDataLayer0A7BuilderP4bodySDySSypGSgvp",
+            "mangledName": "$s19URLRequestDataLayer0A7BuilderP4bodySDySSypGSgvp",
+            "moduleName": "URLRequestDataLayer",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19URLRequestDataLayer0A7BuilderP4bodySDySSypGSgvg",
+                "mangledName": "$s19URLRequestDataLayer0A7BuilderP4bodySDySSypGSgvg",
+                "moduleName": "URLRequestDataLayer",
+                "genericSig": "<τ_0_0 where τ_0_0 : URLRequestDataLayer.URLRequestBuilder>",
+                "sugared_genericSig": "<Self where Self : URLRequestDataLayer.URLRequestBuilder>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19URLRequestDataLayer0A7BuilderP5build10Foundation0A0VyKF",
+            "mangledName": "$s19URLRequestDataLayer0A7BuilderP5build10Foundation0A0VyKF",
+            "moduleName": "URLRequestDataLayer",
+            "genericSig": "<τ_0_0 where τ_0_0 : URLRequestDataLayer.URLRequestBuilder>",
+            "sugared_genericSig": "<Self where Self : URLRequestDataLayer.URLRequestBuilder>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "build",
+            "printedName": "build()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLRequest",
+                "printedName": "Foundation.URLRequest",
+                "usr": "s:10Foundation10URLRequestV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19URLRequestDataLayer0A7BuilderPAAE5build10Foundation0A0VyKF",
+            "mangledName": "$s19URLRequestDataLayer0A7BuilderPAAE5build10Foundation0A0VyKF",
+            "moduleName": "URLRequestDataLayer",
+            "genericSig": "<τ_0_0 where τ_0_0 : URLRequestDataLayer.URLRequestBuilder>",
+            "sugared_genericSig": "<Self where Self : URLRequestDataLayer.URLRequestBuilder>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:19URLRequestDataLayer0A7BuilderP",
+        "mangledName": "$s19URLRequestDataLayer0A7BuilderP",
+        "moduleName": "URLRequestDataLayer",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/URLRequestDataLayer\/URLRequestDataLayer\/URLRequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/URLRequestDataLayer\/URLRequestDataLayer\/URLRequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/URLRequestDataLayer\/URLRequestDataLayer\/URLRequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/URLRequestDataLayer\/URLRequestDataLayer\/URLRequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 232,
+      "length": 7,
+      "value": "\"PATCH\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/URLRequestDataLayer\/URLRequestDataLayer\/URLRequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/URLRequestDataLayer\/URLRequestDataLayer\/URLRequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/URLRequestDataLayer\/URLRequestDataLayer\/URLRequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/URLRequestDataLayer\/URLRequestDataLayer\/URLRequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/URLRequestDataLayer\/URLRequestDataLayer\/URLRequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 232,
+      "length": 7,
+      "value": "\"PATCH\""
+    },
+    {
+      "filePath": "\/Users\/user\/Documents\/Swift\/Giphy\/URLRequestDataLayer\/URLRequestDataLayer\/URLRequestBuilder.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 8,
+      "value": "\"DELETE\""
+    }
+  ]
+}

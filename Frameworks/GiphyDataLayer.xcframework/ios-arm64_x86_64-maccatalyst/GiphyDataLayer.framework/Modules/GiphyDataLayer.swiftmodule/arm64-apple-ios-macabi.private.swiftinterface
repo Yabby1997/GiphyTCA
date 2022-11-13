@@ -1,0 +1,18 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.123.8 clang-1400.0.29.50)
+// swift-module-flags: -target arm64-apple-ios15.5-macabi -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name GiphyDataLayer
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import GiphyDataLayer
+import GiphyDomainLayer
+import Swift
+import URLRequestDataLayer
+import _Concurrency
+import _StringProcessing
+final public class GiphyRepository : GiphyDomainLayer.GiphyRepositoryProtocol {
+  public init(apiKey: Swift.String, networkService: URLRequestDataLayer.URLRequestBuilderNetworkServiceProtocol)
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func search(query: Swift.String) async throws -> [GiphyDomainLayer.GiphyEntity]
+  #endif
+  @objc deinit
+}

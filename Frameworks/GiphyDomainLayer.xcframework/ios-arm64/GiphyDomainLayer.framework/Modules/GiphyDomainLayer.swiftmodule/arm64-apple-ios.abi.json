@@ -1,0 +1,464 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GiphyDomainLayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GiphyRepositoryProtocol",
+        "printedName": "GiphyRepositoryProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "search",
+            "printedName": "search(query:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[GiphyDomainLayer.GiphyEntity]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GiphyEntity",
+                    "printedName": "GiphyDomainLayer.GiphyEntity",
+                    "usr": "s:16GiphyDomainLayer0A6EntityV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16GiphyDomainLayer0A18RepositoryProtocolP6search5querySayAA0A6EntityVGSS_tYaKF",
+            "mangledName": "$s16GiphyDomainLayer0A18RepositoryProtocolP6search5querySayAA0A6EntityVGSS_tYaKF",
+            "moduleName": "GiphyDomainLayer",
+            "genericSig": "<τ_0_0 where τ_0_0 : GiphyDomainLayer.GiphyRepositoryProtocol>",
+            "sugared_genericSig": "<Self where Self : GiphyDomainLayer.GiphyRepositoryProtocol>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16GiphyDomainLayer0A18RepositoryProtocolP",
+        "mangledName": "$s16GiphyDomainLayer0A18RepositoryProtocolP",
+        "moduleName": "GiphyDomainLayer",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GiphyDomainLayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GiphyEntity",
+        "printedName": "GiphyEntity",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16GiphyDomainLayer0A6EntityV4nameSSvp",
+            "mangledName": "$s16GiphyDomainLayer0A6EntityV4nameSSvp",
+            "moduleName": "GiphyDomainLayer",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16GiphyDomainLayer0A6EntityV4nameSSvg",
+                "mangledName": "$s16GiphyDomainLayer0A6EntityV4nameSSvg",
+                "moduleName": "GiphyDomainLayer",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "thumbnailUrl",
+            "printedName": "thumbnailUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16GiphyDomainLayer0A6EntityV12thumbnailUrl10Foundation3URLVSgvp",
+            "mangledName": "$s16GiphyDomainLayer0A6EntityV12thumbnailUrl10Foundation3URLVSgvp",
+            "moduleName": "GiphyDomainLayer",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16GiphyDomainLayer0A6EntityV12thumbnailUrl10Foundation3URLVSgvg",
+                "mangledName": "$s16GiphyDomainLayer0A6EntityV12thumbnailUrl10Foundation3URLVSgvg",
+                "moduleName": "GiphyDomainLayer",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "originalUrl",
+            "printedName": "originalUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16GiphyDomainLayer0A6EntityV11originalUrl10Foundation3URLVSgvp",
+            "mangledName": "$s16GiphyDomainLayer0A6EntityV11originalUrl10Foundation3URLVSgvp",
+            "moduleName": "GiphyDomainLayer",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16GiphyDomainLayer0A6EntityV11originalUrl10Foundation3URLVSgvg",
+                "mangledName": "$s16GiphyDomainLayer0A6EntityV11originalUrl10Foundation3URLVSgvg",
+                "moduleName": "GiphyDomainLayer",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(name:thumbnailUrl:originalUrl:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GiphyEntity",
+                "printedName": "GiphyDomainLayer.GiphyEntity",
+                "usr": "s:16GiphyDomainLayer0A6EntityV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16GiphyDomainLayer0A6EntityV4name12thumbnailUrl08originalG0ACSS_10Foundation3URLVSgAJtcfc",
+            "mangledName": "$s16GiphyDomainLayer0A6EntityV4name12thumbnailUrl08originalG0ACSS_10Foundation3URLVSgAJtcfc",
+            "moduleName": "GiphyDomainLayer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16GiphyDomainLayer0A6EntityV",
+        "mangledName": "$s16GiphyDomainLayer0A6EntityV",
+        "moduleName": "GiphyDomainLayer",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "GiphyDomainLayer",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GiphyUseCaseProtocol",
+        "printedName": "GiphyUseCaseProtocol",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "search",
+            "printedName": "search(query:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[GiphyDomainLayer.GiphyEntity]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GiphyEntity",
+                    "printedName": "GiphyDomainLayer.GiphyEntity",
+                    "usr": "s:16GiphyDomainLayer0A6EntityV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16GiphyDomainLayer0A15UseCaseProtocolP6search5querySayAA0A6EntityVGSS_tYaKF",
+            "mangledName": "$s16GiphyDomainLayer0A15UseCaseProtocolP6search5querySayAA0A6EntityVGSS_tYaKF",
+            "moduleName": "GiphyDomainLayer",
+            "genericSig": "<τ_0_0 where τ_0_0 : GiphyDomainLayer.GiphyUseCaseProtocol>",
+            "sugared_genericSig": "<Self where Self : GiphyDomainLayer.GiphyUseCaseProtocol>",
+            "protocolReq": true,
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:16GiphyDomainLayer0A15UseCaseProtocolP",
+        "mangledName": "$s16GiphyDomainLayer0A15UseCaseProtocolP",
+        "moduleName": "GiphyDomainLayer",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GiphyUseCase",
+        "printedName": "GiphyUseCase",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(repository:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GiphyUseCase",
+                "printedName": "GiphyDomainLayer.GiphyUseCase",
+                "usr": "s:16GiphyDomainLayer0A7UseCaseC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GiphyRepositoryProtocol",
+                "printedName": "GiphyDomainLayer.GiphyRepositoryProtocol",
+                "usr": "s:16GiphyDomainLayer0A18RepositoryProtocolP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16GiphyDomainLayer0A7UseCaseC10repositoryAcA0A18RepositoryProtocol_p_tcfc",
+            "mangledName": "$s16GiphyDomainLayer0A7UseCaseC10repositoryAcA0A18RepositoryProtocol_p_tcfc",
+            "moduleName": "GiphyDomainLayer",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "search",
+            "printedName": "search(query:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[GiphyDomainLayer.GiphyEntity]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GiphyEntity",
+                    "printedName": "GiphyDomainLayer.GiphyEntity",
+                    "usr": "s:16GiphyDomainLayer0A6EntityV"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16GiphyDomainLayer0A7UseCaseC6search5querySayAA0A6EntityVGSS_tYaKF",
+            "mangledName": "$s16GiphyDomainLayer0A7UseCaseC6search5querySayAA0A6EntityVGSS_tYaKF",
+            "moduleName": "GiphyDomainLayer",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16GiphyDomainLayer0A7UseCaseC",
+        "mangledName": "$s16GiphyDomainLayer0A7UseCaseC",
+        "moduleName": "GiphyDomainLayer",
+        "declAttributes": [
+          "AccessControl",
+          "Final"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "GiphyUseCaseProtocol",
+            "printedName": "GiphyUseCaseProtocol",
+            "usr": "s:16GiphyDomainLayer0A15UseCaseProtocolP",
+            "mangledName": "$s16GiphyDomainLayer0A15UseCaseProtocolP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

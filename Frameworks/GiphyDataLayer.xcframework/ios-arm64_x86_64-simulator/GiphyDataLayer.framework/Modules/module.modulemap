@@ -1,0 +1,11 @@
+framework module GiphyDataLayer {
+  umbrella header "GiphyDataLayer.h"
+
+  export *
+  module * { export * }
+}
+
+module GiphyDataLayer.Swift {
+  header "GiphyDataLayer-Swift.h"
+  requires objc
+}
